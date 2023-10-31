@@ -8,8 +8,6 @@
 }
 body {
   background-color: rgb(115, 125, 115);
-  /* background-image: url(https://images.wallpapersden.com/image/wxl-pretty-scenery-mountains-in-sunshine_62167.jpg);
-    background-size: cover; */
 }
 nav {
   height: 68px;
@@ -25,6 +23,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }
 nav ul li {
   list-style-type: none;
@@ -33,7 +32,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: rgb(236, 224, 224);
-  font-size: 1rem;
+  font-size: 1.5rem;
   position: relative;
 }
 li a::after {
@@ -55,11 +54,11 @@ nav ul li a:hover::after {
 }
 
 .left {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .left:hover {
   color: rgb(199, 190, 190);
-  font-size: 1.51rem;
+  font-size: 1.9rem;
   cursor: default;
 }
 .firstsection {
@@ -143,33 +142,81 @@ nav ul li a:hover::after {
   cursor: pointer;
   color: rgb(178, 170, 170);
 }
-/* .tab-links::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background-color: rgb(224, 224, 208);
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  margin-top: 5px;
-  transition: 0.9s;
- } */
 .tab-links:hover{
     font-size: 22px;
     cursor: pointer;
     color: white;
 } 
-
-
-.end {
+footer{
+  background-color: rgb(63, 61, 61);
+}
+.footercontainer{
   width: 100%;
-  height: 60px;
-  background-color: black;
-  color: white;
+  padding: 70px 30px 20px;
+}
+.socialicons{
   display: flex;
   justify-content: center;
-  align-items: center;
+} 
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+
+
 }
-.end-1 h1,span{
-    font-size: 20px;
+.socialicons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+
+}
+.socialicons a:hover{
+  background-color: #111;
+  transition: .3s;
+}
+.socialicons a:hover i{
+  color: white;
+  transition: .3s;
+}
+.footernav{
+  margin: 30px 0;
+}
+.footernav ul{
+  display: flex;
+  justify-content: center;
+}
+.footernav ul li{
+  list-style-type: none;
+
+}
+.footernav p{
+  color: white;
+  font-size: 1.3rem;
+  padding: 0px 20px;
+  text-align: center;
+}
+.footernav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 1.3rem;
+  transition: .3s;
+}
+.footernav ul li a:hover{
+  color: gray;
+  transition: .3s;
+}
+.footerbottom{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+.hearticon{
+  color: red;
+  font-size: larger;
+  font-weight: 700
 }
